@@ -61,6 +61,11 @@ body{
   padding-top: 20px;
 }
 
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
 .btn1{
   background-color: hsl(0, 0%, 95%);
   border: none;
@@ -91,11 +96,18 @@ body{
   padding: 10px 15px;
 }
 
-@media(min-width:500px) and (max-width: 1440px ){
+@media (max-width: 870px){
   .Card{
+    width: 40vh;
     grid-template-columns: 35vh;
-    margin: 450px auto;
-    place-content: center;
+    place-content: start;
+    margin: 50px 0px;
+    margin-left: 20%;
+    margin-bottom: 850px;
+  }
+
+  .attribution {
+    margin-bottom: 15px;
   }
   
   .sedans{
