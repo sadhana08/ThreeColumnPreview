@@ -22,4 +22,3 @@ Your users should be able to:
 - Created a responsive design
 
 
-**Have fun building!** 🚀
